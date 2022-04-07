@@ -1,4 +1,4 @@
-# transformers-ner-re-odsc2022
+# ner-re-with-transformers-odsc2022
 
 ## Title
 
