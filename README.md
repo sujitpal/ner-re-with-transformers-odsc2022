@@ -2,7 +2,7 @@
 
 ## Title
 
-Transformer based approaches to Named Entity Recognition (NER) and Relationship Extraction (RE)
+[Transformer based approaches to Named Entity Recognition (NER) and Relationship Extraction (RE)](https://odsc.com/speakers/transformer-based-approaches-to-named-entity-recognition-ner-and-relationship-extraction-re/)
 
 ## Session type 
 
