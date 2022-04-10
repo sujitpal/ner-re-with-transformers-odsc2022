@@ -4,10 +4,11 @@
 * **Regex based**
 * **Model based**
   * **Sequence to Sequence** model -- sequence of tokens go in, sequence of IOB tags come out.
-    * 
-| **tokens** | Joe       | Biden     | is | the | president | of | the | United     | States     | . |
-| ---------- | --------- | --------- | -- | --- | --------- | -- | --- | ---------- | ---------- | - |
-| **tags**   | **B-PER** | **I-PER** | O  | O   | O         | O  | O   | **B-GPE**  | **B-GPE**  | O |
+
+    | **tokens** | Joe       | Biden     | is | the | president | of | the | United     | States     | . |
+    | ---------- | --------- | --------- | -- | --- | --------- | -- | --- | ---------- | ---------- | - |
+    | **tags**   | **B-PER** | **I-PER** | O  | O   | O         | O  | O   | **B-GPE**  | **B-GPE**  | O |
+
   * Popular NER models
     * **Hidden Markov Model**
     * **Linear CRF (Conditional Random Field)**
