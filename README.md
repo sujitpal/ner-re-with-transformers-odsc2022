@@ -28,6 +28,14 @@ Named Entity Recognition (NER) and Relationship Extraction (RE) are foundational
   * Q/A session
 
 
+## Running the Code
+
+* (optional) Fork this repository
+* Navigate to the [Colab Web UI](https://colab.research.google.com/)
+* Click on the GitHub tab
+* Enter the URL of your forked (or this) repository in the field titled "Enter a GitHub URL" and hit the Search icon
+* You should see the notebooks appear in the results. Click on the notebook you want to work with in Colab
+
 ## Datasets
 
 * [GMB (Groningen Meaning Bank) dataset for NER](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus)

@@ -1,3 +1,15 @@
+## Third Party NER/RE Tools
+
+* Named Entity Recognition (NER)
+  * [SpaCy](https://spacy.io/) -- command line interface to train NER using configuration files.
+  * [Flair](https://github.com/flairNLP/flair) -- programmatic interface neural and Transformer based NER.
+  * [SimpleTransformers](https://simpletransformers.ai/) -- simplified interface to Transformer models in general, including NER.
+  * [NERDS](https://github.com/elsevierlabs-os/nerds) -- unified programmatic interface to various third party NER libraries.
+* Relationship Extraction (RE)
+  * [SpaCy](https://spacy.io/) -- RE component is available but not provided OOB.
+  * [Flair](https://github.com/flairNLP/flair) -- programmatic interface to neural RE model.
+  * [OpenNRE](https://github.com/thunlp/OpenNRE) -- programmatic interface to neural (PCNN) and Transformer based RE models.
+
 ## References
 
 * **Papers**
