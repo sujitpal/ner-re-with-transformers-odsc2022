@@ -37,6 +37,7 @@
 ## Named Entity Recognition
 
 * **Named Entity Recognition (NER)** (also known as **(named) entity identification**, **entity chunking** and **entity extraction**) is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc. (_Wikipedia_).
+
 * Converts unstructured text to structured list of Named Entities.
   * <img src="figures/odsc-2022-blog-fig-1.png"/>
   * 
@@ -48,17 +49,24 @@
 | Pierre Curie                          |           74 |         86 | PER         |
 | Henri Becquerel                       |           99 |        114 | PER         |
 | the Nobel Prize in Physics            |          115 |        141 | WORK_OF_ART |
+
 * **Applications**
   * Information Retrieval (things not strings)
   * Clustering / Categorization / Classification
   * Summarization (derive salient topics from named entities)
   * Foundation for downstream tasks such as Relation Extraction
 
+<p align="center">
+
+_Image Credit: [DisplaCy Named Entity Visualizer](https://explosion.ai/demos/displacy-ent)_
+
+</p>
+
 ---
 
 ## Relation Extraction
 
-* **Relation Extraction** requires the detection and classification of semantic relationship mentions within a set of artifacts. Relationship extraction involves the identification of relations between entities and it usually focuses on the extraction of binary relations. (_Wikipedia, slightly paraphrased_).
+* **Relation Extraction** requires the detection and classification of semantic relationship mentions within a set of named entities. Relationship extraction involves the identification of relations between entities and it usually focuses on the extraction of binary relations. (_Wikipedia, slightly paraphrased_).
 * Discovers Relations that connect Named Entities, converting unstructured text to a Graph.
 <table cellspacing="0" cellpadding="0" border="0">
   <tr>
@@ -66,6 +74,7 @@
     <td><img src="figures/odsc-2022-blog-fig-2.png" /></td>
   </tr>
 </table>
+
 * **Applications**
   * Knowledge Base Construction
   * Question Answering
@@ -76,16 +85,17 @@
 ## Transformers
 
 * Proposed in 2017 by Vaswani, et al. ([Attention is all you need](https://arxiv.org/abs/1706.03762))
+* Basic component behind the NER and RE architectures we will talk about today
 * Transformer based models have achieved SOTA results on many NLP tasks
   * Improves on ConvNets -- receptive field of **Self-Attention** is the full input.
   * Inproves on RNNs -- handles sequential input in parallel using positional embeddings.
 * Both Transformer based NER and RE models use only the **Encoder** portion of the Transformer architecture.
 
-<center>
+<p align="center">
 <img src="https://d2l.ai/_images/transformer.svg" />
 
 _The Transformer Architecture (Image Source: [Dive Into Deep Learning](https://d2l.ai/index.html))_
-</center>
+</p>
 
 ---
 
@@ -99,7 +109,7 @@ _The Transformer Architecture (Image Source: [Dive Into Deep Learning](https://d
 * HuggingFace 🤗 provides one-stop shop for using Transformers:
   * [Pre-trained models](https://huggingface.co/models)
   * [Major NLP Datasets](https://huggingface.co/datasets)
-  * [APIs to train/fine-tune transformers and handle datasets](https://huggingface.co/docs)
+  * [APIs to train/fine-tune transformers and handle datasets](https://huggingface.co/docs) -- includes Tokenizers, Transformers and Transformer based networks for specific applications.
 
 ---
 

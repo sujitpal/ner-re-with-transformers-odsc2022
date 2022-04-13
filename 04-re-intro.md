@@ -20,7 +20,7 @@
 
 <img src="figures/bag-of-features-kernel.png"/>
 
-* Context around entities (span before, span middle, span after) useful to determine relation type between entities **Infosys** and **India**.
+* Context around entity mentions (span before, span middle, span after) useful to determine relation type between entities **Infosys** and **India**.
 * 3 sub-kernels (composed of string subsequences from each span) created
 * SVM RE classifier based on the intuition that another sentence with similar sub-kernels is likely to indicates a similar relation.
 * Tree kernels compute similarity between two entity-augmented shallow parse tree structures.
@@ -37,11 +37,11 @@
 * MAXPOOL from each segment computed separately and concatenated
 * Finally passed to a N-way Linear (Dense) layer for classifying the relation type.
 
-<center>
+<p align="center">
 <img src="figures/pcnn-arch.png"/>
 
 _Architecture of the PCNN Model (Image Source: [Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks](https://aclanthology.org/D15-1203/))_
-</center>
+</p>
 
 ---
 
@@ -55,11 +55,11 @@ _Architecture of the PCNN Model (Image Source: [Distant Supervision for Relation
   * MAXPOOL the tokens between the subject and object entity marker tags and concatenate.
   * Input concatenated vector into custom classifier head and learn to predict one of N relation classes. 
 
-<center>
+<p align="center">
 <img src="figures/re-transformer-archs.png"/>
 
 _Architecture Variations for Transformer based Relation Extractors (Image Source: [Matching the Blanks: Distributional Similarity for Relation Learning](https://arxiv.org/abs/1906.03158))_
-</center>
+</p>
 
 ___
 

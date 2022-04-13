@@ -32,11 +32,11 @@
 * Considers neighboring examples when making prediction.
 * Still uses features generated through feature engineering.
 
-<center>
+<p align="center">
 <img src="figures/linear-crf.png"/>
 
 _A Linear chain Conditional Random Fields model. Image Source: [Building a Named Entity Recognition model using a BiLSTM-CRF network](https://blog.dominodatalab.com/named-entity-recognition-ner-challenges-and-model))_
-</center>
+</p>
 
 ---
 
@@ -48,11 +48,11 @@ _A Linear chain Conditional Random Fields model. Image Source: [Building a Named
 * Bidirectional LSTM considers LHS and RHS context together, provides neighborhood context information.
 * Output of both LSTMs fed to a linear chain CRF, is effectively an attention mechanism.
 
-<center>
+<p align="center">
 <img src="figures/bilstm-crf.png"/>
 
 _Architecture of a BiLSTM-CRF Model. (Image Source: [Building a Named Entity Recognition model using a BiLSTM-CRF network](https://blog.dominodatalab.com/named-entity-recognition-ner-challenges-and-model))_
-</center>
+</p>
 
 ---
 
@@ -63,9 +63,9 @@ _Architecture of a BiLSTM-CRF Model. (Image Source: [Building a Named Entity Rec
 * Transformer Encoder (BERT) used to generate embeddings, output sent to shared Linear layer to produce logits across the tag vocabulary.
 * Self-attention plus linear layer serves as equivalent of CRF head.
 
-<center>
+<p align="center">
 <img src="figures/transformer-based-ner.png"/>
 
 _Architecture of a Transformer based NER Model (Image Source: [Tuning Multilingual Transformers for Named Entity Recognition on Slavic Languages](https://aclanthology.org/W19-3712.pdf))_
-</center>
+</p>
 

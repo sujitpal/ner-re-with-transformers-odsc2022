@@ -23,12 +23,12 @@
   * [Transformers for Natural Language Processing](https://www.packtpub.com/product/transformers-for-natural-language-processing/9781800565791)
   * [Natural Language Processing with Transformers](https://www.oreilly.com/library/view/natural-language-processing/9781098103231/)
 
-<center>
+<p align="center">
 <table cellspacing="3" cellpadding="0" border="0">
   <tr>
     <td><img src="figures/book-packt.png"/></td>
     <td><img src="figures/book-oreilly.png"/></td>
   </tr>
 </table>
-</center>
+</p>
 
