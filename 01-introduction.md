@@ -80,6 +80,12 @@ _Image Credit: [DisplaCy Named Entity Visualizer](https://explosion.ai/demos/dis
   * Question Answering
   * Text Analysis in different domains (legal, biomedical)
 
+<p align="center">
+
+_Image Credit: Built using Neo4J Console and Cypher_
+
+</p>
+
 ---
 
 ## Transformers
