@@ -23,9 +23,9 @@ Named Entity Recognition (NER) and Relationship Extraction (RE) are foundational
   * [Case Study #3: XLM-RoBERTa based NER fine-tuned using HuggingFace Trainer API](03a-gmb-ner-xlmr.ipynb)
 * **Relationship Extraction** (1 hour) 
   * [Neural and Transformer based architectures for Relationship Extraction](04-re-intro.md)
-  * [Case Study #4: BERT based RE (e) fine-tuned using New York Times dataset](05-nyt-re-bert.ipynb)
-  * [Case Study #5: BERT based RE (f) fine-tuned using New York Times dataset](05a-nyt-re-bert.ipynb)
-  * [Case Study #6: BERT based RE (b) fine-tuned using New York Times dataset](05b-nyt-re-bert.ipynb)
+  * [Case Study #4: BERT based RE (e: entity markers mention pooling) fine-tuned using New York Times dataset](05-nyt-re-bert.ipynb)
+  * [Case Study #5: BERT based RE (b: standard mention pooling) fine-tuned using New York Times dataset](05a-nyt-re-bert.ipynb)
+  * [Case Study #6: BERT based RE (f: entity markers entity start) fine-tuned using New York Times dataset](05b-nyt-re-bert.ipynb)
 * **Conclusion** (20 mins)
   * [Wrap-up](06-conclusion.md)
   * Q/A session
